@@ -174,6 +174,7 @@
     <ClCompile Include="BOJ\이분_나무 자르기 (2805).cpp" />
     <ClCompile Include="BOJ\정수 제곱근 (2417).cpp" />
     <ClCompile Include="BOJ\휴게소 세우기 (1477).cpp" />
+    <ClCompile Include="BOJ\LCA %2811437%29.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="BOJ\최대 힙 %2811279%29.cpp" />
     <ClCompile Include="BOJ\절대값 힙 %2811286%29.cpp" />
