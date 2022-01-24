@@ -1,4 +1,4 @@
-ï»¿#include <iostream>
+#include <iostream>
 #include <queue>
 #include <set>
 #include <map>
@@ -7,18 +7,18 @@ using namespace std;
 
 
 
-int main()
+void n1275_()
 {
     ios::sync_with_stdio(false);
     cin.tie(NULL);
     cout.tie(NULL);
-    
-    
+
+
     int N, M;
     cin >> N >> M;
-    vector<long long> a(N+1);
+    vector<long long> a(N + 1);
     vector<long long> tree(N + 1);
-    for (int i = 1; i < N+1;i++) {
+    for (int i = 1; i < N + 1;i++) {
         int x;
         cin >> x;
         a[i] = x;
@@ -30,11 +30,11 @@ int main()
     }
 
     for (int i = 0; i < M;i++) {
-        int x, y,aa,b;
-        cin >> x >> y >>aa>>b;
+        int x, y, aa, b;
+        cin >> x >> y >> aa >> b;
         if (x > y) swap(x, y);
         long long bresult = 0, cresult = 0;
-        //b ì—ì„œ c ê¹Œì§€ë‹ˆê¹ cê¹Œì§€ ëˆ„ì í•© - bê¹Œì§€ ëˆ„ì í•©
+        //b ¿¡¼­ c ±îÁö´Ï±ñ c±îÁö ´©ÀûÇÕ - b±îÁö ´©ÀûÇÕ
         x = x - 1;
         while (y > 0) {
             cresult += tree[y];
