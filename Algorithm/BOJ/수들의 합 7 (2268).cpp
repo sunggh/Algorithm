@@ -1,4 +1,4 @@
-﻿#include <iostream>
+#include <iostream>
 #include <queue>
 #include <set>
 #include <map>
@@ -40,7 +40,7 @@ long long sum2268(vector<long long>& tree, int node, int start, int end, int lef
 
 
 
-int main()
+void n2268()
 {
     ios::sync_with_stdio(false);
     cin.tie(NULL);
@@ -53,8 +53,8 @@ int main()
     int h = (int)ceil(log2(N));
     int tree_size = (1 << (h + 1));
     vector<long long> tree(tree_size);
-    
-   // init2268(a, tree, 1, 1, N);
+
+    // init2268(a, tree, 1, 1, N);
 
     for (int i = 0; i < M;i++) {
         int c, x, y;
@@ -68,7 +68,7 @@ int main()
             a[x] = y;
             update2268(tree, 1, 1, N, x, diff);
         }
-        
-        
+
+
     }
 }

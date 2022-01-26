@@ -188,6 +188,9 @@
     <ClCompile Include="BOJ\최솟값 구하기 %2810868%29.cpp" />
     <ClCompile Include="BOJ\커피숍 2 - 세그먼트트리 %281275%29.cpp" />
     <ClCompile Include="BOJ\커피숍 2 - 팬윅트리 %281275%29.cpp" />
+    <ClCompile Include="BOJ\구간 합 구하기2 %2810999%29.cpp" />
+    <ClCompile Include="BOJ\수들의 합 7 %282268%29.cpp" />
+    <ClCompile Include="BOJ\스위치 %281395%29.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
